@@ -1,0 +1,325 @@
+/*============================================
+  * Author      : Arabey Mohamed
+  * Project     : Prop | Personal Portfolio HTML Template
+  * Version     : 1.0
+  * Primary use : Portfolio 
+
+/*--------------------------------------------------------------
+*   Midea Screan max (min-width:768px) and (max-width:1199px)
+*--------------------------------------------------------------*/
+@media(min-width:768px) and (max-width:1199px){
+/*----------------------------------------------
+*   01. General 
+*----------------------------------------------*/   
+    h2{
+        font-size: 32px;
+    }
+    
+    button.btn{
+        padding: .7em 1.5em;
+    }
+/*----------------------------------------------
+*   02. Slider Background and header-content
+*----------------------------------------------*/
+    .slider .header-content h1{
+        font-size: 43px;
+    }
+    
+    .slider .header-content h3.text-1{
+        font-size: 30px;
+    }
+    
+    .slider .header-content span{
+        font-size: 24px;
+    }
+    
+/*----------------------------------------------
+*   03. About Me
+*----------------------------------------------*/
+    .about .content{
+        padding-top: 50px;
+    }
+    
+/*----------------------------------------------
+*   04. Services
+*----------------------------------------------*/
+    
+    .section-services .overlay-parallax img{
+        margin: 0 auto;
+    }
+    
+    .section-services .overlay-parallax .icon-text p,
+    .section-services .overlay-parallax .icon-text h4{
+        text-align: center;
+    }
+    .section-services .overlay-parallax .services-row{
+        margin-top: 0;
+    }
+    
+/*----------------------------------------------
+*   05. Blog
+*----------------------------------------------*/
+    
+    .section-blog .blog .posts .post{
+        margin-bottom: 40px;
+    }
+    
+/*----------------------------------------------
+*   06. Footer
+*----------------------------------------------*/
+    
+    
+    footer p{
+        text-align: center;
+    }
+    
+    footer ul{
+        margin: 10px auto;
+        text-align: center;
+    }
+    
+    footer ul li{
+        float: inherit;
+        display: inline-block;
+    }
+    
+}
+
+@media(max-width:1024px){
+    .section-Testimonials .Testimonials .Testimonials-carousel .clint .clint-text{
+        padding-top: 30px;
+        padding-left: 15px;
+    }
+}
+
+@media(max-width:991px){
+    .about .img-text{
+        padding: 40px 0 40px;
+    }
+    
+    .about .content .skill span{
+        width: 7.8%;
+    }
+    
+    .about .img-text .Continue{
+        padding: 20px 0 0;
+    }
+   .section-services .overlay-parallax img{
+        margin: 40px auto;
+    }
+    
+    .section-services .overlay-parallax .block-service .icon i{
+        line-height: 60px;
+    }
+    
+}
+
+/*----------------------------------------------
+*   Midea Screan max(767px)
+*----------------------------------------------*/
+@media(max-width:767px){
+    /*----------------------------------------------
+*   01. General 
+*----------------------------------------------*/   
+    h2{
+        font-size: 32px;
+    }
+    
+        
+    button.btn{
+        padding: .7em 1.5em;
+    }
+    
+
+    
+/*----------------------------------------------
+*   02. Slider Background and header-content
+*----------------------------------------------*/
+    .slider .header-content h3{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .slider .header-content h3.text-1{
+        font-size: 24px;
+    }
+    
+    .slider .header-content h1{
+        font-size: 33px;
+    }
+    
+    .slider .header-content h3.typed-text i,
+    .slider .header-content span{
+        font-size: 20px;
+    }
+    
+    .slider .header-content h3.typed-text:before{
+        content: "";
+        position: absolute;
+        background: #ff2b42;
+        width: 3px;
+        height: 25px;
+        margin-top: 4px;
+
+    }
+    
+    .slider .navbar li a{
+        padding: 0;
+    }
+    
+    .slider .navbar ul span{
+        position: relative;
+        left: -48px;
+        top: -19px;
+    }
+    
+/*----------------------------------------------
+*   03. About Me
+*----------------------------------------------*/
+    .about .content{
+        padding-top: 50px;
+        padding-left: 30px;
+    }
+    
+    .about .content .skill span{
+        width: 7.2%;
+    }
+    
+/*----------------------------------------------
+*   04. Services
+*----------------------------------------------*/
+    
+    .section-services .overlay-parallax img{
+        margin: 40px auto;
+    }
+    
+    .section-services .overlay-parallax .icon-text p,
+    .section-services .overlay-parallax .icon-text h4{
+        text-align: center;
+    }
+    
+    .section-services .overlay-parallax .block-service .icon i{
+        line-height: normal;
+    }
+    
+    .section-services .overlay-parallax .services-row{
+        margin-top: 0;
+    }
+    
+    .section-Testimonials .Testimonials .Testimonials-carousel .clint .clint-text{
+        padding-left: 15px;
+    }
+    
+    .section-Testimonials .Testimonials .Testimonials-carousel .clint .clint-text .fa-4x{
+        font-size: 3em;
+    }
+    
+    
+/*----------------------------------------------
+*   05. Testimonials
+*----------------------------------------------*/  
+    .section-Testimonials .Testimonials .Testimonials-carousel .clint .clint-text p{
+        text-align: left;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+        
+/*----------------------------------------------
+*   06. Blog
+*----------------------------------------------*/
+    
+    .section-blog .blog .posts .post{
+        margin-bottom: 40px;
+    }
+    
+/*----------------------------------------------
+*   07. Contact
+*----------------------------------------------*/
+
+    .section-contact .overlay-parallax .contact-form form textarea.form-control{
+        width: 100%;
+    }
+    
+    .section-contact .overlay-parallax .contact-form form button{
+        position: inherit;
+        height: auto;
+        width: 100%;
+        border-radius: 3px;
+    }
+    
+    .section-contact .overlay-parallax .contact-form form button i{
+        font-size: 20px;
+        color: #fff;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+ 
+/*----------------------------------------------
+*   08. Footer
+*----------------------------------------------*/
+        
+    footer p{
+        text-align: center;
+    }
+    
+    footer ul{
+        margin: 10px auto;
+        text-align: center;
+    }
+    
+    footer ul li{
+        float: inherit;
+        display: inline-block;
+    }
+    
+}
+
+@media (max-width: 480px){
+    .about .content .skill span {
+        width: 9.1%;
+    }
+}
+
+@media (max-width: 414px){
+    .about .content .skill span {
+        width: 8%;
+    }
+}
+
+@media (max-width: 384px){
+    .about .content .skill span {
+        width: 7.2%;
+    }
+    
+    .slider .header-content h1{
+        font-size: 27px;
+    }
+    
+}
+/*----------------------------------------------
+*   Midea Screan max(320px)
+*----------------------------------------------*/
+@media(max-width:320px){
+    
+/*----------------------------------------------
+*   01. About Me
+*----------------------------------------------*/
+    .about .content{
+        padding-top: 50px;
+        padding-left: 15px;
+    }
+    
+    .about .content .skill span{
+        width: 25px;
+    }
+    
+      .section-contact .overlay-parallax p{
+        text-align: center;
+    }
+    
+    .section-contact .overlay-parallax .contact-us .data p i{
+        display: block;
+        margin: 10px auto;
+    }
+}
