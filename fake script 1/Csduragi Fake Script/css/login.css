@@ -1,0 +1,134 @@
+body
+{
+	background: #040404 url('../images/login_bg.jpg') fixed top center;
+	font-style:normal;
+	font-variant:normal; 
+	font-weight:normal; 
+
+	
+	margin:0 auto;
+}
+.cerceve 
+{
+	width:100%;
+	margin:0 auto;
+	
+}
+.ortala 
+{
+	width:80%;
+	margin:0 auto;
+
+}
+#login_aciklama
+{
+	width:600px;
+	height:40px;
+	background: url('../images/login_email.png')  left center;
+	background-repeat:no-repeat;
+	background-color:#012c35;
+	margin:0 auto;
+	color:#fff;
+	margin-top:20%;
+}
+.loginaciklama_text
+{
+	padding-left:35px;
+	padding-top:10px;
+	font-family:"Trebuchet MS";
+	font-size:9pt;
+}
+
+#loginform
+{
+	width:600px;
+	height:250px;
+	background-color:#012c35;
+	margin:0 auto;
+	margin-top:10px;
+}
+
+#user_image
+{
+	float:left;
+	background: url('../images/login_user.png')  center center;
+	background-repeat:no-repeat;
+	width:172px;
+	height:183px;
+	padding-top:75px;
+	padding-left:100px;
+
+}
+
+#form
+{
+	float:left;
+	padding-top:50px;
+}
+
+.login_form_element
+{
+	margin-top:10px;
+}
+.login_form_element input[type="text"],.login_form_element input[type="password"]
+{
+	width:250px;
+	height:30px;
+	padding-left:2px;
+	margin-bottom:10px;
+	border:0;
+	background-color: #d7d2d8 ;
+	color:#3e4746;
+}
+
+.login_form_element input[type="submit"]
+{
+	width:80px;
+	height:34px;
+	margin-right:4px;
+	margin-bottom:10px;
+	border:0;
+	background-color: #0288a9 ;
+	color:#fff;
+}
+
+.login_form_element input[type="text"]:hover,.login_form_element input[type="password"]:hover
+{
+	width:250px;
+	height:30px;
+	padding-left:2px;
+	margin-bottom:10px;
+	border:0;
+	background-color: #fff;
+}
+.login_form_element input[type="submit"]:hover
+{
+	width:80px;
+	height:34px;
+	margin-right:4px;
+	margin-bottom:10px;
+	border:0;
+	background-color: #03a8d0 ;
+	color:#fff;
+}
+
+
+input[type=button]
+{
+	height:35px;
+	width:120px;
+	margin:0;
+	border:0;
+	color:#fff;
+}
+
+
+.button 
+{
+	border:0;
+	height:30px;
+	line-height:30px;
+	width:100px;
+
+	color:#ffffff;
+}

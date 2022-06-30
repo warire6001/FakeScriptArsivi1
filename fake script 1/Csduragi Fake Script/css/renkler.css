@@ -1,0 +1,181 @@
+/*yesiller*/
+
+.koyuyesil
+{
+	background-color:#1d717b;
+
+}
+.koyuyesil2
+{
+	background-color:#104d54;
+
+}
+
+/* yesiller */
+
+/* kirmizi */
+.kirmizi
+{
+	background-color:red;
+
+}
+
+/* */
+
+
+
+
+/* maviler */
+
+.acikmavi
+{
+	background-color:#00aeff;
+
+}
+
+.acikmavi2
+{
+	background-color:#2d89ef;
+	
+}
+.acikmavi3
+{
+	background-color:#2e64ab;
+}
+.acikmavi4
+{
+	background-color:#1e86ea;
+}
+.acikmavi5
+{
+	background-color:#006699;
+}
+
+.koyumavi
+{
+	background-color:#1958b7;
+}
+.koyumavi2
+{
+	background-color:#10428f;
+}
+.koyumavi
+{
+	background-color:#1958b7;
+}
+
+.urunler
+{
+
+}
+.urunbg
+{
+	background-color:#034779;
+}
+.urun_baslik
+{
+	color:#66ccff;
+}
+
+
+.lacivert
+{
+	/* alt kullanicilar */
+	background-color:#223d66;
+
+
+}
+.koyulacivert
+{
+	background-color:#003366;
+}
+
+/* maviler */
+
+
+/* füme */
+.acikfume
+{
+	background-color:#464c4a;
+}
+.fume
+{
+	background-color:#343a38;
+}
+/* füme */
+
+
+
+/* giri gibi */
+.gri
+{	
+	background-color:#61767d;	
+}
+.acikgri
+{	
+	background-color:#d1d2d2;	
+}
+/**/
+
+.pembe
+{
+	background-color:#bc1c48;
+}
+
+
+
+
+
+/**span*/
+
+.s_kucuk
+{
+	font-size:10px;
+}
+.s_orta
+{
+	font-size:12px;
+}
+.s_buyuk
+{
+	font-size:14px;
+}
+.s_bold
+{
+	font-weight:bold;
+}
+.s_beyaz
+{
+	color:#fff;
+}
+.s_gri
+{
+	color:#61767d;
+}
+.s_turuncu
+{
+	color:#ff6600;
+}
+.s_kirmizi
+{
+	color:#cc0000;
+}
+
+
+
+/* ticket oku bg */
+
+.ticketokubg{
+	background-color:#0a6160;
+	
+}
+
+
+/* sayfa resmileri */
+
+.cs_anasayfa
+{
+	
+	background: url('../images/icon/cs_buyuk.png') bottom left no-repeat;
+
+}

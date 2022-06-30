@@ -1,0 +1,114 @@
+.panel {
+	width:300px;
+	float:left;
+	
+	background:#3b3b3b;
+	position:relative;
+	left:-300px;
+}
+.slider-arrow {
+	float:left;
+	font:400 12px Arial, Helvetica, sans-serif;
+	color:#000;
+	text-decoration:none;
+	position:relative;
+	left:-300px;
+}
+
+#kayan_reklam{position : fixed; _position : absolute; top : 0; _top : expression(eval(document.body.scrollTop));
+    left: 0; margin : 0;
+	margin-top:150px;
+}
+.bildirimlerim_logo
+{
+margin-top:20px;
+margin-left:5px;
+}
+
+ul#bildirimler
+{
+
+margin: 0;
+padding: 15px 4px 17px 0;
+list-style: none;
+}
+ul#bildirimler li
+{
+width:240px;
+background:#454845;
+color:#ddd;
+font: bold 12px/18px sans-serif;
+position: relative;
+padding: 15px 20px;
+cursor: pointer;
+margin:0 auto;
+margin-bottom:2px;
+}
+ul#bildirimler li:hover
+{
+background:#565956;
+}
+
+.b_oval
+{
+border-radius:5px;
+padding:8px;
+padding-top:3px;
+padding-bottom:3px;
+color:#fff;
+background-color: rgba(255, 0, 0, 0.5);
+}
+.b_toplam
+{
+float:left;
+margin-left:-25px;
+margin-top:25px;
+}
+
+
+#kayan_reklam2{position : fixed; _position : absolute; top : 0; _top : expression(eval(document.body.scrollTop));
+    right: 0; margin : 0;
+	margin-top:100px;
+}
+.slider-arrow2 {
+	float:right;
+	font:400 12px Arial, Helvetica, sans-serif;
+	color:#000;
+	text-decoration:none;
+	position:relative;
+	right:-300px;
+}
+
+
+ul#bildirimler2
+{
+
+margin: 0;
+padding: 15px 4px 17px 0;
+list-style: none;
+}
+ul#bildirimler2 li
+{
+width:240px;
+background:#454845;
+color:#ddd;
+font: bold 12px/18px sans-serif;
+position: relative;
+padding: 15px 20px;
+cursor: pointer;
+margin:0 auto;
+margin-bottom:2px;
+}
+ul#bildirimler2 li:hover
+{
+background:#565956;
+}
+
+.panel2 {
+	width:300px;
+	float:right;
+	
+	background:#3b3b3b;
+	position:relative;
+	right:-300px;
+}
